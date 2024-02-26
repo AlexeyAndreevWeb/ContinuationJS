@@ -10,7 +10,7 @@ console.log(cardBodyLink)
 // 4. Найти первый попавшийся элемент на странице у которого есть атрибут data-number со значением 50 и вывести его в консоль.
 console.log(document.querySelector('[data-number="50"]'))
 // 5. Выведите содержимое тега title в консоль.
-console.log(document.querySelector('title').textContent)
+console.log(document.querySelector('title').innerHTML)
 // 6. Получите элемент с классом "card-title" и выведите его родительский узел в консоль.
 const cardTitle = document.querySelector('.card-title')
 console.log(cardTitle.parentElement)
