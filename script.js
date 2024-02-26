@@ -5,10 +5,10 @@ console.log(superLink)
 const allCardLink = document.querySelectorAll('.card-link')
 allCardLink.forEach(item => item.textContent = 'ссылка')
 // 3. Найти все элементы на странице с классом "card-link", которые лежат в элементе с классом "card-body" и вывести полученную коллекцию в консоль.
-const cardBodyLink = document.querySelectorAll('div.card-body > .card-link')
+const cardBodyLink = document.querySelectorAll('.card-body > .card-link')
 console.log(cardBodyLink)
 // 4. Найти первый попавшийся элемент на странице у которого есть атрибут data-number со значением 50 и вывести его в консоль.
-console.log(document.querySelector('*[data-number="50"]'))
+console.log(document.querySelector('[data-number="50"]'))
 // 5. Выведите содержимое тега title в консоль.
 console.log(document.querySelector('title').textContent)
 // 6. Получите элемент с классом "card-title" и выведите его родительский узел в консоль.
